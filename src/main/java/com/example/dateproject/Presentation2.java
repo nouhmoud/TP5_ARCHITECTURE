@@ -1,3 +1,5 @@
+package com.example.dateproject;
+
 import dao.IDao;
 import entities.Product;
 import org.springframework.context.ApplicationContext;
@@ -17,4 +19,4 @@ public class Presentation2 {
         productDao.create(product);
 
         System.out.println("Produit sauvegardé : " + product.getName());
-    }
+    } }
